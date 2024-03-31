@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main_menu{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color:blue;
+}
+.main_menu li a{
+    color: white;
+    display: block;
+    padding: 20px 30px;
+}
+.main_menu li:hover >a{
+    background-color: rgba(128, 5, 5,0.76);
+}
+.main_menu li{
+    position: relative;
+}
+.sub-menu{
+    background-color: #00015D;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    display: none;
+}
+.main_menu li:hover .sub-menu{
+    display: block;
+}
+.main_menu .fa{
+    margin-right: 8px;
+}
+.peta_menu{
+    background-color: #00015D;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    display: none;
+}
+.sub-menu li:hover .peta_menu{
+    display: block;
+}
+.sub-menu li a{
+    right: 10px;
+}
+.iteamam1{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}

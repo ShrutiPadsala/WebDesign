@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bannersliderdemo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="owl-carousel owl-theme" id="banner">
+        <div class="item" data-hash="1">
+            <img src="image/img1.jpg" alt="">
+            <div class="slider_content wow animate__backInLeft">
+                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas similique mollitia, 
+                    corporis repudiandae totam illo aliquid quis quia doloremque. </p>
+            </div>
+       </div>
+       <div class="item" data-hash="2">     
+        <img src="image/img2.jpg" alt="">
+   </div>
+    <div class="item" data-hash="3">
+        <img src="image/img3.jpg" alt="">
+    </div>
+    <div class="item" data-hash="4">
+        <img src="image/img4.jpg" alt="">
+    </div>
+    <div class="item" data-hash="5">
+        <img src="image/img5.jpg" alt="">
+    </div>
+    <div class="item" data-hash="6">
+        <img src="image/img6.jpg" alt="">
+    </div>
+    <div class="item" data-hash="7">
+        <img src="image/img7.jpg" alt="">
+    </div>
+    <div class="item" data-hash="8">
+        <img src="image/img8.jpg" alt="">
+    </div>
+    <div class="item" data-hash="9">
+        <img src="image/img9.jpg" alt="">
+    </div>
+    <div class="item" data-hash="10">
+        <img src="image/img10.jpg" alt="">
+    </div>
+       </div>
+
+
+<!-- 
+       <center class="thumbnail">
+        <a href="#1"><img src="image/img1.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#2"><img src="image/img2.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#3"><img src="image/img3.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#4"><img src="image/img4.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#5"><img src="image/img5.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#6"><img src="image/img6.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#7"><img src="image/img7.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#8"><img src="image/img8.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#9"><img src="image/img9.jpg" alt="" width="100px" class="hash_img"></a>
+        <a href="#10"><img src="image/img10.jpg" alt="" width="100px" class="hash_img"></a>
+   </center>
+
+ -->
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+   <script>
+
+    $(document).ready(function(){
+        $('#banner').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+var owl = $('.owl-carousel');
+owl.owlCarousel();
+// Listen to owl events:
+owl.on('changed.owl.carousel', function(event) {
+    new WOW().init();
+})
+   new WOW().init();
+});
+    </script>
+    
+</body>
+</html>

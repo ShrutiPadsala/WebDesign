@@ -1,0 +1,50 @@
+/* .main :first-child{
+    background-color:blueviolet ;
+} */
+/* .main :last-child{
+    background-color:aqua ;
+} */
+/* .main :first-of-type{
+    background-color:aquamarine ;
+}
+.main :last-of-type{
+    background-color:cadetblue ;
+} */
+/* .main :nth-child(4){
+    background-color:chartreuse ;
+} */
+/* .main :nth-child(odd){
+    background-color:chocolate ;
+} */
+/* .main :nth-child(even){
+    background-color:chartreuse ;
+} */
+/* .main :nth-last-child(7){
+    background-color:darkgreen;
+} */
+/* .main :nth-last-of-type(5){
+    background-color:deeppink;
+} */
+ /* .main :only-child{
+    background-color:darksalmon;
+} */
+ /* .main :only-of-type{
+    background-color:darkcyan;
+}*/
+/* .main :is(){
+    background-color:goldenrod;
+} */
+.main :not(p){
+    background-color:goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia;  
+}
+ul {
+    background-color:rgb(51, 148, 53);
+    list-style: none;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+.main_menu {
+    display: flex;
+    margin: 20px;
+
+}
+.main_menu li a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.main_menu li:hover a{
+    background-color:chartreuse;
+    color: black;
+}
+.sub_menu li a{
+    display: none;
+}
+.main_menu 
+

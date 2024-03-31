@@ -1,0 +1,23 @@
+body{
+     height: calc(100vh - 100px);
+     background-color: black;
+     font-family: heebo,sans-serif;
+}
+#banner .owl-theme .owl-dots .owl-dot.active span{
+     background-color: rgb(172, 117, 219) !important;
+}
+/* img{
+   max-width: 100%;
+   height: auto;
+   padding-left: 50%;
+   vertical-align: middle;
+    
+} */
+.slider_content{
+     position: absolute;
+     top: 30%;
+     right: 50%;
+     width: 40%;
+     overflow: hidden;
+     color: black;
+}

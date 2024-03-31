@@ -1,0 +1,36 @@
+.hash_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover; 
+    
+}
+.thumbnail a{
+    opacity: 0.5;
+}
+.thumbnail a:hover{
+    opacity: 1;
+}
+.owl-stage{
+    margin-bottom: 10px;
+}
+.owl-nav{
+    margin-top: 0 !important;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white !important;
+    border-radius: 50% !important;
+}
