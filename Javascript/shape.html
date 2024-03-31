@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<h1>SHAPES</h1>
+	<script type="text/javascript">
+		function circle(){
+		document.getElementById('demo1').style.height="150px";
+		document.getElementById('demo1').style.width="150px";
+		document.getElementById('demo1').style.borderRadius="50%";
+		document.getElementById('demo1').style.backgroundColor="#99cc00";
+		}
+
+		function squre(){
+		document.getElementById('demo2').style.height="150px";
+		document.getElementById('demo2').style.width="150px";
+		document.getElementById('demo2').style.backgroundColor="#999966";
+		}
+
+		function rectangle(){
+		document.getElementById('demo3').style.height="150px";
+		document.getElementById('demo3').style.width="300px";
+		document.getElementById('demo3').style.backgroundColor="#9966ff";
+		}
+
+		function triangle(){
+		document.getElementById('demo4').style.height = "0px";
+		document.getElementById('demo4').style.width = "0px";
+		document.getElementById('demo4').style.borderLeft = "50px solid transparent";
+		document.getElementById('demo4').style.borderRight = "50px solid transparent";
+		document.getElementById('demo4').style.borderBottom = " 100px solid blue";	
+	
+			}
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+	<table border="1">
+	<tr>
+	<td><div id="demo1"></div></td>
+	<td><div id="demo2"></div></td>
+	<td><div id="demo3"></div></td>
+	<td><div id="demo4"></div></td>
+	</tr>
+	<tr>
+		
+	<td><button onclick="circle()">click here</button></td>
+	<td><button onclick="squre()">click here</button></td>
+<td><button onclick="rectangle()">click here</button></td>
+	<td><button onclick="triangle()">click here</button></td>
+</tr>
+</table>
+
+</body>
+</html>

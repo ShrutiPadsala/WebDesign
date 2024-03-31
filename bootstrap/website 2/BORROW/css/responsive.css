@@ -1,0 +1,63 @@
+/*xx- large */
+
+@media screen and (max-width:1399px) {
+    .top_header>* div {
+        font-size: 12px!important;
+    }
+    /* .navidrop-down {
+        display: none;
+    } */
+}
+
+
+/* x-large */
+
+@media screen and (max-width:1199px) {}
+
+
+/* large */
+
+
+/* x-laptop */
+
+@media screen and (max-width: 991px) {
+    .spacer {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .navidrop-down {
+        display: none;
+    }
+    .buy_now_button {
+        padding: 0 300px;
+    }
+}
+
+
+/* mediu, */
+
+
+/* tablate */
+
+@media screen and (max-width: 768px) {
+    .spacer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .navidrop-right {
+        display: block;
+    }
+    /* .navidrop-down {
+        display: none;
+    } */
+}
+
+
+/*  mobile*/
+
+@media screen and (max-width: 575px) {}
+
+
+/* nokia */
+
+@media screen and (mim-width: 574px) {}

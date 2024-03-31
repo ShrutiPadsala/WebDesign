@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var s1=78,s2=87,s3=38,s4=90,s5=57,total,min,max,result,grade
+		// s1=prompt("Enter s1" )
+		document.write("<br>sub1="+s1);
+		// s2=prompt("Enter s2" )
+		document.write("<br>sub2="+s2);
+		// s3=prompt("Enter s3" )
+		document.write("<br>sub3="+s3);
+		// s4=prompt("Enter s4" )
+		document.write("<br>sub4="+s4);
+		// s5=prompt("Enter s5" )
+		document.write("<br>sub5="+s5);
+
+		total=s1+s2+s3+s4+s5;
+		per=total/5;
+		document.write("<br>TOTAL="+total);
+		document.write("<br>PERCENTAGE"+per);
+
+
+		if(s1<s2 && s1<s2 && s1<s4 && s1<s5)
+		{
+			document.write("<br>min=sub1="+s1);
+		}else if(s2<s3 && s2<s4 && s2<s5)
+		{
+			document.write("<br>min=sub2="+s2);
+
+		}else if( s3<s4 && s3<s5)
+		{
+			document.write("<br>min=sub3="+s3);
+
+		}else if(s4<s5){
+			document.write("<br>min=sub4="+s4);
+
+		}else{
+			document.write("<br>min=sub5="+s5);
+		}
+
+
+		if(s1>s2 && s1>s2 && s1>s4 && s1>s5)
+		{
+			document.write("<br>max=sub1="+s1);
+		}else if(s2>s3 && s2>s4 && s2>s5)
+		{
+			document.write("<br>max=sub2="+s2);
+
+		}else if( s3>s4 && s3>s5)
+		{
+			document.write("<br>max=sub3="+s3);
+
+		}else if(s4>s5){
+			document.write("<br>max=sub4="+s4);
+
+		}else{
+			document.write("<br>max=sub5="+s5);
+		}
+
+		if(per>=35)
+		{
+			document.write("<br>result=pass<br>")
+		}else{
+			document.write("<br>result=fail<br>")
+		}
+		if(per>=70){
+			document.write("grade=dist")
+		}else if(per>=60){
+			document.write("grade=one")
+		}else if(per>=50){
+			document.write("grade=two")
+		}else if(per>=40){
+			document.write("grade=three")
+		}else if(per>=35){
+			document.write("grade=pass")
+		}else{
+			document.write("grade=fail")
+		}
+		
+	</script>
+		
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function getdata(){
+
+			// class elements
+			// document.getElementsByClassName('demo')[1].innerHTML="Hello Welcome";
+			// document.getElementsByClassName('demo')[2].innerHTML="Hello Welcome";
+			// document.getElementsByClassName('demo')[3].innerHTML="Hello Welcome";
+
+
+			// id elements
+			// document.getElementByid('demo')[1].innerHTML="Hello Welcome";
+			// document.getElementByid('demo')[2].innerHTML="Hello Welcome";
+			// document.getElementByid('demo')[3].innerHTML="Hello Welcome";
+
+			var x=document.getElementsByClassName('demo')
+			// alert(x.length)
+			for (var i = 0;  i < x.length; i++) {
+				x[i].innerHTML='Hello Welcome';
+				x[i].style.color='white';
+				x[i].style.backgroundColor='gray';
+					}
+				}
+		
+	</script>
+</head>
+<body>
+	<h1 class="demo">Hello....</h1>
+	<h1 class="demo">Hello....</h1>
+	<h1 class="demo">Hello....</h1>
+	<h1 class="demo">Hello....</h1>
+	<h1 class="demo">Hello....</h1>
+	 <input type="button" onclick="getdata()" name="" value="click">
+</body>
+</html>

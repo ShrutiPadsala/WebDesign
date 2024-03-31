@@ -1,0 +1,166 @@
+            @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Inter&family=Open+Sans:wght@300;400&display=swap');
+            /* inter-regular - latin */
+            
+            @font-face {
+                font-display: swap;
+                /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                src: url('../fonts/inter-v12-latin-regular.eot');
+                /* IE9 Compat Modes */
+                src: url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+                url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+                url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+                url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg');
+                /* Legacy iOS */
+            }
+            
+             :root {
+                --font-family: 'Inter';
+                --bgblue: rgb(98, 75, 255);
+                --txtblack: black;
+                --txtwhite: white;
+            }
+            
+            .inter {
+                font-family: var(--inter);
+            }
+            
+            .bgblue {
+                background-color: var(--bgblue);
+            }
+            
+            .txtwhite {
+                color: var(--txtwhite);
+            }
+            
+            .txtblack {
+                color: var(--txtwhite);
+            }
+            /* .body {
+                font-family: var(--inter);
+                font-size: 16px;
+                line-height: 24px;
+            } */
+            
+            a {
+                text-decoration: none;
+            }
+            
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            p {
+                margin: 0;
+            }
+            
+            .spacer {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            /* ======================================================
+                      top header                            
+=====================================================*/
+            
+            .main_menu>* i {
+                font-size: 12px;
+                font-weight: bolder !important;
+            }
+            
+            .mega_menu>* ul {
+                color: var(--bgblue);
+                font-size: 12px;
+                padding: 4px;
+            }
+            
+            .mega_menu>* a {
+                font-size: 14px;
+                color: rgb(44, 39, 39);
+            }
+            
+            .mega_menu>* li {
+                padding: 6px 2px;
+            }
+            
+            .mega_menu>* li:hover {
+                background-color: rgba(234, 234, 237, .3)!important;
+            }
+            
+            .mega_menu>* li:hover>a {
+                color: var(--bgblue);
+            }
+            
+            .mega_menu {
+                display: none;
+            }
+            
+            .main_menu>li:hover>.mega_menu {
+                display: block;
+            }
+            
+            .sub_menu {
+                width: 15%;
+                display: none;
+            }
+            
+            .sub_menu>li {
+                position: relative;
+            }
+            
+            .sub_menu>* a {
+                color: var(--txtblack);
+            }
+            
+            .sub_menu>li {
+                /* margin: 0 10px; */
+                padding: 7px 5px;
+            }
+            
+            .sub_menu>li:hover {
+                background-color: rgba(234, 234, 237, .4)!important;
+            }
+            
+            .sub_menu>li:hover>a {
+                color: var(--bgblue);
+            }
+            
+            .sub_menu>* i {
+                position: absolute;
+                top: 0;
+                right: 10px;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: grey;
+                align-items: center;
+            }
+            
+            .main_menu>li:hover>.sub_menu {
+                display: block;
+            }
+            
+            .main_menu>li {
+                position: relative;
+            }
+            
+            .navidrop-right {
+                position: absolute;
+                right: 10px;
+                top: 0;
+                display: none;
+            }
+            /* .navidrop-down {
+                display: none;
+            } */
+            
+            .buy_now_button {}
